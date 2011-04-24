@@ -1,0 +1,69 @@
+body, html {
+	background: transparent;
+	margin: 0 auto;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-color: #404040;
+}
+div#sidebar {
+	position: absolute;
+	border-right: 1px solid #d9d9d9;
+	background: #dde4ea;
+	height: 100%;
+	width: 295px;
+	top: 60px;
+	left: 0;
+	z-index: 7000;
+}
+div#footer {
+	position: absolute;
+	width: 100%;
+	height: 39px;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid #404040;
+	background: url(../images/footer-background.jpg);
+	z-index: 8000;
+}
+
+div#header {
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+	height: 40px;
+	top: 0;
+	left: 0;
+}
+
+div#content {
+	position: absolute;
+	width: 670px;
+	padding: 10px;
+	background: #f2f2f2;
+	height: 100%;
+	left: 295px;
+	top: 60px;
+	z-index: 8000;
+}
+div#loading {
+	position: absolute; 
+	right: 15px; 
+	top: 15px; 
+	width: 220px; 
+	opacity: 0;
+	z-index: 9000;
+}
+div.message {
+	width: 220px;
+	text-align: center;
+	margin: 0 0 5px 0;
+}
+div#progress-bar {
+	width: 220px; 
+	opacity: 1;
+	height: 14px; 
+	background: url(../images/11.gif) repeat-x;
+	border: 1px solid #404040;
+	-webkit-border-radius: 7px;
+	z-index: 9000;
+}

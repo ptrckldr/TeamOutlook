@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:app xmlns:ti='http://ti.appcelerator.org'>
+	<!-- These values are edited/maintained by Titanium Developer -->
+<id>com.ptrckldr.teamoutlook</id>
+<name>TeamOutlook</name>
+<version>1.0</version>
+<publisher>patrickelder</publisher>
+<url>www.ptrckldr.com</url>
+<icon>default_app_logo.png</icon>
+<copyright>2011 by Patrick Elder</copyright>
+	<!-- Window Definition - these values can be edited -->
+	<window>
+		<id>initial</id>
+		<title>TeamOutlook</title>
+		<url>app://index.php</url>
+		<width>980</width>
+		<height>750</height>
+		<fullscreen>false</fullscreen>
+		<resizable>false</resizable>
+		<chrome scrollbars="false">true</chrome>
+		<maximizable>false</maximizable>
+		<minimizable>true</minimizable>
+		<closeable>true</closeable>
+	</window>
+</ti:app>
